@@ -18,7 +18,7 @@
          $image = __DIR__ . '/img/database.svg';
          $image_data = base64_encode(file_get_contents($image));
          $src = 'data: '.mime_content_type($image).';base64,'.$image_data;
-         echo '<img src="',$src,'" width="30" height="50" class="d-inline-black ml-3 align-text-top">';
+         echo '<img src="',$src,'" width="30" height="50" class="d-inline-black pl-3 align-text-top">';
          ?>
         <!-- <img src="public/img/database.svg" width="30" height="30" class="d-inline-block align-top ml-5" alt=""> -->
         Crud App

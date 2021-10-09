@@ -68,9 +68,9 @@ $('button[type="submit"]').click(()=>{
 
         $("#title_form").addClass("bg-white");
         $("#title_form").text("Add Contact");
+        edit = false;
     }
  });
-
 
 $(document).on('click','.btn-delete',(e)=>{
 
